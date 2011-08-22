@@ -1,0 +1,12 @@
+[user]
+	name = "Jeremy Roman"
+	email = jeremy@jeremyroman.com
+
+[color]
+	ui = auto
+	diff = auto
+	status = auto
+	branch = auto
+
+[core]
+	editor = vim

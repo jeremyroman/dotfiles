@@ -1,0 +1,18 @@
+Host mbp
+HostName jeremy-romans-macbook-pro.local.
+User jeremy
+
+Host imac
+HostName jeremy-romans-imac.local.
+User jeremy
+
+Host *.uwaterloo.ca *.csclub
+User jbroman
+
+Host student.cs linux.student.cs student.math
+HostName %h.uwaterloo.ca
+User jbroman
+
+Host caffeine glomag ginseng sodium-benzoate mirror.csclub corn-syrup taurine potassium-citrate ascorbic-acid artificial-flavours strombola acesulfame-potassium maltodextrin natural-flavours sodium-citrate bit-shifter denardo nullsleep sid
+HostName %h.csclub.uwaterloo.ca
+User jbroman
