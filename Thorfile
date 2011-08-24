@@ -17,7 +17,6 @@ class DotFiles < Thor
       if overrides[file] != false
         dest = overrides[file] || ".#{file}"
 
-        # wrap link_file to do the right thing for directories
         if File.directory?(dest) and not File.symlink?(dest)
           link_directory file, dest, options[:force]
         else
