@@ -25,8 +25,9 @@ endif
 " No toolbar, please
 set guioptions-=T
 
-" Colour scheme
+" Colour scheme and font
 color railscasts-custom
+set gfn=Monaco:h10
 
 " Read .gvimrc.local
 if filereadable(expand("~/.gvimrc.local"))
