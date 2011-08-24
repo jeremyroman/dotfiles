@@ -4,3 +4,4 @@ vim/plugin/command-t.vim
 vim/ruby/command-t
 vim/backup/*.swp
 **/doc/tags
+vim/.netrwhist
