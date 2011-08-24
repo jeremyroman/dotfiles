@@ -1,0 +1,18 @@
+[submodule "vim/bundle/fugitive"]
+	path = vim/bundle/fugitive
+	url = http://github.com/tpope/vim-fugitive.git
+[submodule "vim/bundle/ack"]
+	path = vim/bundle/ack
+	url = https://github.com/mileszs/ack.vim.git
+[submodule "vim/bundle/nerdtree"]
+	path = vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "vim/bundle/nerdcommenter"]
+	path = vim/bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "vim/bundle/markdown"]
+	path = vim/bundle/markdown
+	url = https://github.com/plasticboy/vim-markdown.git
+[submodule "vim/bundle/gist"]
+	path = vim/bundle/gist
+	url = https://github.com/mattn/gist-vim.git
