@@ -6,6 +6,9 @@ class DotFiles < Thor
   desc "setup", "Gets ready to maintain dotfiles"
   def setup
     run "thor install \"#{__FILE__}\" --as dotfiles --force >/dev/null"
+    inside "~/.dotfiles" do
+      run "git submodule init"
+    end
   end
 
   desc "install", "Installs the dotfiles"
@@ -30,6 +33,7 @@ class DotFiles < Thor
   def update
     inside "~/.dotfiles" do
       run "git pull"
+      run "git submodule update"
       run "thor dotfiles:setup"
     end
 
